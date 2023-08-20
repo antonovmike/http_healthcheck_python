@@ -14,11 +14,11 @@ python3 -m pip install --upgrade pip
 
 Start with args
 ```bash
-python main.py http://httpstat.us/
+python main.py 1 http://httpstat.us/
 ```
 ```bash
-python main.py http://httpstat.us/500
+python main.py 2 http://httpstat.us/500
 ```
 ```bash
-python main.py not_an_address
+python main.py 3 not_an_address
 ```
